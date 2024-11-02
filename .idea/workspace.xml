@@ -5,27 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="896ade14-296a-4ce2-939d-f0ec58a6f55b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/background-carousel.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bg-popup.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icon-pokemon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/api/pokemon.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/carousel.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/grafikBar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/imagePokemon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/pokemonList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/popup.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/types/pokemon.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/utils/formatPokemon.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/utils/formatPokemonId.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/utils/formatSpasi.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/imagePokemon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/imagePokemon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/pokemonList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/pokemonList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/popup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/popup.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1730519466821</updated>
       <workItem from="1730519468233" duration="1394000" />
-      <workItem from="1730520880597" duration="41940000" />
+      <workItem from="1730520880597" duration="42628000" />
     </task>
     <servers />
   </component>

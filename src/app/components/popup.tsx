@@ -49,6 +49,7 @@ export default function Popup({ title, url, isVisibility } : any) {
                                     return (
                                         <>
                                             <span
+                                                key={index}
                                                 className={`ts toast-${index}`}>
                                                 { formatSpasi(data?.ability?.name) }
                                             </span>
@@ -94,6 +95,7 @@ export default function Popup({ title, url, isVisibility } : any) {
                                     return (
                                         <>
                                              <span
+                                                 key={index}
                                                  className={'text-[#73B861] text-xs capitalize bg-[#EFF6F3] py-2 px-[25px] rounded font-semibold'}>
                                                  { formatSpasi(data?.type?.name) }
                                             </span>
@@ -107,7 +109,7 @@ export default function Popup({ title, url, isVisibility } : any) {
                             {pokemonDetail?.stats?.map((data: any, index: any) => {
                                 return (
                                     <>
-                                        <div className="stat-row">
+                                        <div className="stat-row" key={index}>
                                             <GrafikBar data={data}/>
                                             <div className="stat-bar">
                                                 <div className="stat-fill" style={{width: `${data?.base_stat}%`}}></div>

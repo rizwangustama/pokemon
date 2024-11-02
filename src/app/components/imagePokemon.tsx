@@ -29,11 +29,8 @@ export default function ImagePokemon({ pokemonId, pokemonName }: { pokemonId: st
                 isLoading ? (<div className={'flex justify-center items-center w-full h-[150px]'}>
                     <span className={'loader'}></span>
                 </div>) : (
-                    // <img src={`https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${pokemonId}.png`}
-                    //      alt={pokemonName}/>
-
                 <img className={'h-full'} src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${pokemonId}.svg`}
-             alt={pokemonName}/>
+             alt={pokemonName} />
     )
 }
 </div>

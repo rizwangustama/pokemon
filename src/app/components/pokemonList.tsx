@@ -144,7 +144,7 @@ export default function PokemonList() {
                                 <div className={isTypeFilter ? 'flex flex-col sm:border-r sm:border-r-slate-200 sm:pr-24' : 'hidden md:flex md:flex-col sm:border-r sm:border-r-slate-200 sm:pr-24' }>
                                     { pokemonType?.map((data : any, index : any) : any => {
                                             return (
-                                                <div onClick={() => handleCategory(data?.url)} className={'capitalize cursor-pointer text-sm font-semibold text-[#ACB9C1] py-2.5 hover:text-[#3E75C3]'}>{data?.name}</div>
+                                                <div key={index} onClick={() => handleCategory(data?.url)} className={'capitalize cursor-pointer text-sm font-semibold text-[#ACB9C1] py-2.5 hover:text-[#3E75C3]'}>{data?.name}</div>
                                             )
                                         }
                                     )}
@@ -193,6 +193,7 @@ export default function PokemonList() {
                                             return (
                                                 <>
                                                     <div className={'bg-white p-6 rounded-xl card-shadow'}
+                                                         key={index}
                                                          onClick={() => handleIsDialog(data.url ? data?.url : data?.pokemon?.url)}>
                                                         <ImagePokemon pokemonId={pokemonId} pokemonName={ data.name ? data?.name : data?.pokemon?.name } />
                                                         {/*<img*/}
