@@ -24,7 +24,7 @@ export default function ImagePokemon({ pokemonId, pokemonName }: { pokemonId: st
     }, [pokemonId]); // Re-run effect only when pokemonId changes
 
     return (
-        <div className={'lg:h-[215px] relative'}>
+        <div className={'h-[150px] md:h-[200px] lg:h-[215px] relative'}>
             {
                 isLoading ? (<div className={'flex justify-center items-center w-full h-[150px]'}>
                     <span className={'loader'}></span>

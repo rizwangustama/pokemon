@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="896ade14-296a-4ce2-939d-f0ec58a6f55b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/icon-github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icon-linkedin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icon-wa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/footer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/imagePokemon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/imagePokemon.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/pokemonList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/pokemonList.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/popup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/popup.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +54,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -65,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1730519466821</updated>
       <workItem from="1730519468233" duration="1394000" />
-      <workItem from="1730520880597" duration="42628000" />
+      <workItem from="1730520880597" duration="50157000" />
     </task>
     <servers />
   </component>
@@ -79,6 +89,12 @@
           <url>file://$PROJECT_DIR$/src/app/components/header.tsx</url>
           <line>23</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/components/popup.tsx</url>
+          <line>44</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
